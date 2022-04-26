@@ -24,7 +24,7 @@
         <button id="clear" onclick="clr()">C</button>
 
 
-        <table>
+        <table id="table1">
             <tr>
                 <td><button id="7" onclick="dis('7')">7</button></td>
                 <td><button id="8" onclick="dis('8')">8</button></td>
@@ -41,6 +41,13 @@
                 <td><button id="1" onclick="dis('1')">1</button></td>
                 <td><button id="2" onclick="dis('2')">2</button></td>
                 <td><button id="3" onclick="dis('3')">3</button></td>
+                <td><button id="answer" onclick="dis('*')">*</button></td>
+            </tr>
+        </table>
+        <table id="table2">
+            <tr>
+                <td><button id="zero" onclick="dis('0')">0</button></td>
+                <td><button id="." onclick="dis('.')">.</button></td>
                 <td><button id="answer" onclick="solve()">=</button></td>
             </tr>
         </table>
